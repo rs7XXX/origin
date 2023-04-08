@@ -1,24 +1,24 @@
 pipeline{
-  agent{}
+  agent any
     stages{
-      stage(one){
+      stage('one'){
        steps{
-       echo 'this is demo1'
+             echo 'this is demo1'
         }
        }
-      stage(two){
+      stage('two'){
        steps{
-       echo 'this is demo2'
+             echo 'this is demo2'
         }
        }
-      stage(three){
+      stage('three'){
        steps{
-       echo 'this is demo3'
+             echo 'this is demo3'
         }
        }
-      stage(four){
+      stage('four'){
        steps{
-       echo 'this is demo4'
+             echo 'this is demo4'
         }
        }
     }
